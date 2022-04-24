@@ -59,8 +59,6 @@ public class Grille {
         Sommet s = getSommet(x,y);
         if (s == null)
             return true;
-        System.out.println("x = " + x + " y = " + y);
-        System.out.println(s.isUnObstacle());
         return s.isUnObstacle();
     }
 
